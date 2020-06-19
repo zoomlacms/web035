@@ -1,0 +1,1 @@
+﻿<%@ page language="C#" autoeventwireup="true" inherits="User_Shopfee_paypal, App_Web_fylwtkrp" enableviewstatemac="false" enableEventValidation="false" viewStateEncryptionMode="Never" %>

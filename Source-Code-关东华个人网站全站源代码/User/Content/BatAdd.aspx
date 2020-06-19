@@ -1,0 +1,1 @@
+﻿<%@ page language="C#" autoeventwireup="true" inherits="test_BatAdd, App_Web_ngc1lk00" validaterequest="false" enableEventValidation="false" viewStateEncryptionMode="Never" %>

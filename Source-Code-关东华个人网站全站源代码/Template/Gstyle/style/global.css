@@ -1,0 +1,146 @@
+@charset "utf-8";
+/* 全局样式定义 Powered by Zoomla!逐浪CMS zoomla.cn*/
+a:active {star:expression(this.onFocus=this.blur());} 
+canvas {-ms-touch-action:double-tap-zoom;}
+body{color:#000;}
+a{color:#000;}
+.padding0{ padding:0;}
+.padding5{ padding-left:5px; padding-right:5px;} 
+.padding10{ padding-left:10px; padding-right:10px;}
+.padding15{ padding-left:15px; padding-right:15px;}
+.paddingT10{padding-top:10px;}
+
+@font-face {
+    font-family: "ZoomlaXingtiJ2";
+    src: url("http://code.zoomla.cn/font/ZoomlaXingtiJ2.eot"); /* IE9 */
+    src: url("http://code.zoomla.cn/font/ZoomlaXingtiJ2.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */    
+    url("http://code.zoomla.cn/font/ZoomlaXingtiJ2.woff") format("woff"), /* chrome、firefox */
+    url("http://code.zoomla.cn/font/ZoomlaXingtiJ2.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+ */
+    url("http://code.zoomla.cn/font/ZoomlaXingtiJ2.svg#ZoomlaXingtiJ2") format("svg"); /* iOS 4.1- */
+    font-style: normal;font-weight: normal;
+}
+
+.home_logo{padding-top:3em;}
+.home_logo img{width:440px;}
+.mynav{ height:15em;background:url(images/head_bg.png) left bottom repeat-x; border-bottom:5px solid #000;}
+.home_nav{ height:10em;  background:url(images/top_bg.png) bottom right no-repeat;}
+.navbar-default{border:none;}
+.home_nav ul{font-size:1.2em; padding-top:0.6em;}
+.home_search{position:relative; margin-top:2em; margin-right:160px;}
+.navbar-default .navbar-nav > li > a{ padding-left:5px; padding-right:5px;color:#fff;}
+.navbar-default .navbar-nav > li > a:hover{color:#ccc;}
+
+
+.home_banner{margin-top:15em; height:340px; background:#000 url(images/body-r.png) top right no-repeat;}/*首页banner*/
+.home_banner p{color:#fff; text-align:left;}
+.home_banner img{ margin-top:2em; margin-left:2em;width:280px; border:8px solid #505050;}
+
+.show_title{font-size:2em;font-weight:bold;width:95%;margin-right:1em;float:right;}
+.show_title span{color:#aaa;font-size:14px;font-weight:100}
+.show_title a{font-size:14px;color:#000;float:right;font-weight:100;text-decoration:none;}
+
+.home_show{margin-top:1em;}
+.home_title{background:url("images/title.png")center no-repeat;color:#fff;text-align:center;width:97px;height:5em;line-height:5em;}
+
+.sliderbox{background:url(../images/index-bottom.jpg) no-repeat 0 -1px;width:100%;height:200px;overflow:hidden;padding:0 0 0 0;margin:0 auto;}
+.arrow-btn{margin:35px 0 0 0;display:inline;background:url(images/arrow-btn.png) no-repeat;width:26px;height:124px;overflow:hidden;cursor:pointer;}
+#btn-left{float:left;margin-left:12px;background-position:0 0;}
+#btn-left.dasabled{background-position:0 -124px;}
+#btn-right{float:right;margin-right:6px;cursor:pointer;background-position:-26px 0;}
+#btn-right.dasabled{background-position:-26px -124px;}
+.slider{width:1100px;overflow:hidden;position:relative;height:166px;float:left;}
+.slider ul{position:absolute;left:0px;top:32px;width:1800px;height:140px;list-style:none;}
+.slider li{float:left;width:150px;height:140px;}
+.slider a{display:block;text-decoration:none;color:#073a5e;font-size:12px;font-weight:bold;text-align:center;margin-top:24px;}
+.slider img{width:90px;display:inline-block!important;}
+
+
+.myclass{}/*列表信息定义*/
+.myclass ul{ min-height:280px; padding-left:5px;padding-right:5px;}
+.myclass li{ list-style:none; font-size:1.1em; height:1.8em; line-height:1.8em;}
+.myclassPic{}/*缩略图列表*/
+.myclassPic li{ list-style:none; float:left;width:25%; height:20.2em; text-align:center;}
+.myclassPic li img{width:98%; height:15em; }
+.myclassPic li img:hover{border:1px solid #E52023;}
+
+.content_b_r_vcr img{border:5px solid #000;}/*首页视频缩略图*/
+
+
+.con_banner{ margin-top:15em; height:240px; line-height:240px; background:#000; text-align:center; color:#fff;}/*内页banner*/
+.con_banner p{  font-family: "ZoomlaXingtiJ2"; font-size:4em;}
+.myContent_l h1{ margin-top:0; text-align:center; font-size:2.1em;font-family: "STHeiti","Microsoft YaHei","宋体","arial"}
+.myContent{ line-height:26px; min-height:500px; padding:10px;text-align:justify; text-justify:inter-ideograph; overflow:hidden;}
+.myAbbr{ margin:auto; width:90%; margin-top:1.8em; padding-top:1em;text-align:center;border-top:1px solid #D1D1D1; }/*文章下时间作者等*/
+#about{width:98%; margin:auto;margin-top:10px;}
+#about span{font-size:16px; font-weight:bold; color:#000;}
+#about ul{margin-top:10px;}
+#about li{float:left; width:48%;}
+#about li a{color:#009;}
+#begin {margin-top:10px;  padding-left:10px;}
+#begin span{clear:both;display:block; height:28px; line-height:28px; border-bottom:1px dotted #0FF;}
+.edit{ height:30px; text-align:right;}
+.edit span{padding-right:5px;}
+
+.news_list { background:#fff; padding-top:5px; padding-bottom:5px; padding-right:10px; padding-left:10px;}
+.news_list_t { border-bottom:1px dotted #e4e9f0;}
+.news_list_t h2 { float:left; margin-top:10px; margin-bottom:-2px; padding-bottom:10px;font-family:"STHeiti","Microsoft YaHei","黑体","arial"; font-weight:300; border-bottom:2px solid #f90; font-size:1.5em;}
+.news_list_t a{ float:right; margin-top:1em;font-family:"STHeiti","Microsoft YaHei","黑体","arial"; color:#333;}
+.news_list_t a:hover{ color:#cd0001;}
+.news_list_c ul { margin-top:5px;}
+.news_list_c ul li { line-height:3em; height:3em; overflow:hidden; border-bottom: 1px dashed #f0f0f0;}
+.news_list_c ul li a{ color:#3071a9;font-family:"STHeiti","Microsoft YaHei","黑体","arial"; font-size:1.1em;}
+.news_list_c ul li a:hover{ color:#cd0001;}
+.news_list_c ul li span { float:right;font-family:"STHeiti","Microsoft YaHei","黑体","arial"; font-size:1.1em; color:#555;}
+.news_list_c ul li i{ display:inline-block; margin-right:5px; width:20px; height:20px; background:#aaa; line-height:20px; text-align:center; color:#fff; font-family:"STHeiti","Microsoft YaHei","黑体","arial"; font-style:normal;}
+.news_list_c ul li:nth-child(10n+1) i{ background:#FC9B0B;}
+.news_list_c ul li:nth-child(10n+2) i{ background:#FC9B0B;}
+.news_list_c ul li:nth-child(10n+3) i{ background:#FC9B0B;}
+.news_list { margin-top:15px;}
+.news_list_l ul { margin-bottom:5px;}
+.news_list_l ul li { margin-top:10px;}
+.news_list_l ul li a { display:block; padding-top:1.8em; padding-bottom:1.8em; font-family:"STHeiti","Microsoft YaHei","黑体","arial"; font-size:1.2em; color:#fff; text-align:center; background:#5c6467; text-decoration:none; }
+.news_list_l ul li a:hover{ background:#00a5eb;}
+
+.videoimg li {font-size:0.6em;}
+.videoimg li img{width:100%;}
+#videoShow{ margin:auto; margin-top:5px;width:100%;height:600px;}/*视频播放域大小定义*/
+
+.aboutZP{}/*作品内容页相关作品*/
+.aboutZP ul{padding:0;}
+.aboutZP li{ list-style:none;float:left; margin-top:1em; width:25%; text-align:center;}
+.aboutZP li img{ padding:1px; width:100%; height:320px;}
+
+/*内容页分页定义开始*/		
+#T_page{height:30px; font-size:14px; margin:auto; text-align:center; margin-top:20px; width:80%; height:auto; }
+#T_page a,#T_page span,#T_page p{float:left;height:20px; line-height:20px; margin-left:5px;margin:0; padding:0;}
+#T_page span{ background-color:#666; display:block; width:20px; color:#FFF;cursor:pointer;margin-left:5px;}
+#T_page p{  border:1px #CCCCCC solid;width:60px; cursor:pointer; margin-left:5px;}
+/*内容页分页定义结束*/
+
+.footer{ height:200px; text-align:center;  background:url(images/foot_bg.png) repeat-x; color:#fff;;}/*页脚定义*/
+.footer ul{ padding-top:120px; padding-left:19em;;}
+.footer li{ float:left; padding-left:1em; padding-right:1em;}
+.footer a{color:#fff;}
+.footer p{  color:#ccc;}
+
+
+@media (min-width: 761px) and (max-width: 1200px){ /*761-1200间私有*/
+.home_logo img{width:280px;}
+}
+@media screen and (max-width:760px){ /*小于760px私有*/
+.home_logo img{ margin-left:3em;width:80%;}
+.navbar-fixed-top{ position:; height:;}
+.home_banner{ position: absolute; width:100%; height:440px;}
+.home_banner img{display:block;}
+.home_banner .carousel-caption{position: relative; bottom:auto;padding-top:0; left:5px; right:5px;}
+.mynav{}
+.home_nav{height:auto; background:none;}
+.home_nav li{border-bottom:1px solid #ccc;}
+.navbar-fixed-top .navbar-collapse{max-height:inherit; background:#000;}
+.home_content{margin-top:30em;}
+.footer ul{padding-left: inherit;}
+.navbar-fixed-top{position:absolute;}
+}
+
+
+/*key:UG93ZXJlZCBieSBab29tbGEh6YCQ5rWqQ01TIHd3d3cuWm9vbWxhLmNu */

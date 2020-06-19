@@ -1,0 +1,243 @@
+﻿<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="msapplication-TileColor" content="#1A0066"/>
+<meta name="msapplication-TileImage" content="/images/win8_symbol_140x140.png"/>
+<title>{$SiteName/}_首页</title>
+{$MetaKeywords/}
+{$MetaDescription/}
+{ZL:Boot()/}
+<link href="{$CssDir/}global.css?Version={ZL.Label id="前端样式版本号"/}" rel="stylesheet"/>
+<script src="{$CssDir/}js/caifuc_01.js" type="text/javascript"></script>
+<script src="{$CssDir/}js/caifuc_02.js" type="text/javascript"></script>
+</head>
+<body>
+<div class="relative">
+<nav class="navbar navbar-default navbar-fixed-top" role="navigation" id="scolls">
+<div class="mynav">
+<div class="container home_nav">
+<div class="navbar-header">
+<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+<span class="sr-only">Toggle navigation</span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+</button>
+<div class="home_logo"><a href="/"><img src="{$LogoUrl/}" alt="{$SiteName/}"/></a></div>
+</div>
+<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
+<form class="navbar-form navbar-right home_search" role="search" action="/Search/SearchList.aspx" method="get" target="_blank" style=" ">
+<div class="form-group">
+<input name="KeyWord" class="form-control" type="text" placeholder="全站搜索">
+</div>
+<button class="btn btn-default" type="submit" style="position: absolute; top: 0px;right: 0.8em; font-size:1.5em;border: none; background: none; color: #000;"><i class="fa fa-search"></i></button>
+<div class="clearfix"></div></form>
+
+<ul class="nav navbar-nav">
+<li><a href="/">首页</a></li>
+<li><a href="{ZL:GetInfoUrl(21)/}">个人简介</a></li>
+<li><a href="{ZL:GetNodeLinkUrl(2)/}">走进东润阁</a></li>
+<li><a href="{ZL:GetNodeLinkUrl(7)/}">作品展厅</a></li>
+<li><a href="{ZL:GetNodeLinkUrl(3)/}">藏品展示</a></li>
+<li><a href="{ZL:GetNodeLinkUrl(4)/}">名家动态</a></li>
+<li><a href="{ZL:GetNodeLinkUrl(5)/}">在线视频</a></li>
+</ul>
+</div><!-- /.navbar-collapse -->
+</div><!-- /.container-fluid -->
+</div>
+</nav>
+</div>
+<!-- 导航结束-->
+
+
+<div class="container-fulid">
+<div id="carousel-example-generic" class=" carousel slide home_banner" data-ride="carousel" data-interval="false">
+<ol class="carousel-indicators">
+<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+<li data-target="#carousel-example-generic" data-slide-to="1"></li>
+<li data-target="#carousel-example-generic" data-slide-to="2"></li>
+</ol>
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner" role="listbox">
+    <div class="item active">
+     
+      <img src="{$CssDir/}images/banner1.jpg" alt="推荐照片"><br>
+     
+     
+      <div class="carousel-caption">
+       <p>
+         关东华，字中月，自号文墨书生。1976年生，祖籍黑龙江，现任齐齐哈尔书法协会副主席。东润阁主人。<br/>
+书法家，收藏家。社会活动慈善家。
+</p>
+      </div>
+    </div>
+    <div class="item">
+      <img src="{$CssDir/}images/banner.jpg" alt="推荐照片"><br>
+      <div class="carousel-caption"><p>
+         自幼酷爱书法，得乃翁教诲，遍临名迹，精研书法。游学四方，寻师访友，善师前贤之际更师前贤之心。他师古而不泥于古，所作草书苍劲舒和，神采飞动。犹如凤翥龙蟠。笔酣墨畅，一气呵成。遒健奔放的用笔，稳中寓险的结体，错落变化的布局，无不表现出一种豪宕不羁、恢宏磅礴的美，确有“雄奇宕逸，咄咄逼人”之势。所作行楷，端庄雄伟，气势开张。<br/>
+    近岁作品广为流传，遍独赏音乐，当世书法收藏界以未来大师视而寄予厚望。</p>
+      </div>
+    </div>
+    <div class="item">
+      <img src="{$CssDir/}images/banner3.jpg" alt="推荐照片"><br>
+      <div class="carousel-caption"><p>
+         　  关东华书法的独特风格已为书法界所称道，近年来，他的作品多次在全国重要赛事及书法大展中获奖，并被国内外知名企业及收藏家收藏。   作为青年书法家，关东华的内心蕴藏着对书法艺术创作的理想和创新追求。<br/>
+他以自己独到的思想意识和学术成就，正不断地向书法艺术的颠峰迈进。
+</p>
+      </div>
+    </div>
+  </div>
+<!-- Controls -->
+<a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+<span class="sr-only">Previous</span>
+</a>
+<a class="right carousel-control" href="#carousel-example-generic" role="button" style="z-index:99998" data-slide="next">
+<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+<span class="sr-only">Next</span>
+</a>
+</div>
+</div>
+<!-- banner结束-->
+
+<div class="container home_show">
+<div class="show_title">作品展厅<span>Works Gallery</span><a href="{ZL:GetNodeLinkUrl(7)/}">更多+</a></div>
+<div class="row">
+
+<div class="sliderbox">
+	<div id="btn-left" class="arrow-btn dasabled"></div>
+	<div class="slider">
+		<ul>
+{ZL.Label id="文章缩略图列表_无标题" NodeID="7" TitleNum="30" ShowNum="20" /}
+		</ul>
+	</div>
+	<div id="btn-right" class="arrow-btn"></div>
+</div>
+
+
+
+</div>
+</div><!-- 图片列表展示结束-->
+
+<div class="container home_content">
+<div class="row">
+<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 content_t_l">
+ <div class="home_title">图文传真</div>
+  
+  
+<ul id="pub_slideplay">
+<li><a href='{ZL:GetInfoUrl(48)/}' target="_blank"><img alt="清华大学卓越领导终身成就奖" src="{$CssDir/}images/01.jpg" width=480 height=230><p>清华大学卓越领导终身成就奖</p></a></li>
+<li><a href='{ZL:GetInfoUrl(46)/}' target="_blank"><img alt="关东华先生书法“龙”在北京翰海2014年春季拍卖会上以115000元落槌成交" src="{$CssDir/}images/02.jpg" width=480 height=230><p>关东华先生书法“龙”在北京翰海2014年春季拍卖会上以115000元落槌成交</p></a></li>
+<li><a href='{ZL:GetInfoUrl(47)/}' target="_blank"><img alt="北京翰海2015年秋季拍卖会关东华先生书法“禅”以135000元落槌成交" src="{$CssDir/}images/03.jpg" width=480 height=230><p>北京翰海2015年秋季拍卖会关东华先生书法“禅”以135000元落槌成交</p></a></li>
+</ul>
+<script type="text/javascript">new dk_slideplayer("#pub_slideplay",{width:"480px",height:"230px",fontsize:"12px",time:"5000"});</script>
+
+
+
+
+</div>
+<div class="col-lg-5 col-md-5 col-sm-5 col-xs-12 content_t_r">
+<a class="pull-right" href="{ZL:GetNodeLinkUrl(8)/}">更多>></a>
+ <div class="home_title">媒体报道</div>
+ <ul> 
+{ZL.Label id="输出指定节点标题_无时间属性" NodeID="8" TitleNum="40" ShowNum="10" /}
+ </ul>
+</div>
+</div>
+</div><!-- 内容上部结束-->
+
+<div class="container home_content_b">
+<div class="row">
+<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 content_b_l">
+<a class="pull-right" href="{ZL:GetNodeLinkUrl(1)/}">更多>></a>
+ <div class="home_title">馆藏动态</div>
+<ul> 
+{ZL.Label id="输出指定节点标题_无时间属性" NodeID="1" TitleNum="30" ShowNum="10" /}
+</ul>
+</div>
+<div class="col-lg-5 col-md-5 col-sm-5 col-xs-12 content_b_r"><a class="pull-right" href="{ZL:GetNodeLinkUrl(5)/}">更多>></a>
+ <div class="home_title">在线视频</div>
+ <div class="content_b_r_vcr"> 
+<a href="{ZL:GetNodeLinkUrl(5)/}" target="_blank"><img src="{$CssDir/}images/people3.png" alt="视频列表"/></a>
+ </div>
+ </div>
+ </div>
+</div><!-- 内容下部结束-->
+
+
+
+<div class="footer">
+<div class="container">
+<ul>
+	<li><a href="{ZL:GetInfoUrl(21)/}">关于东华老师</a></li>
+	<li><a href="{ZL:GetNodeLinkUrl(10)/}">友情链接</a></li>
+	<li><a href="/guest/" target="_blank">在线留言</a></li>
+	<li><a href="{ZL:GetNodeLinkUrl(8)/}">媒体报道</a></li>
+	<li><a href="{ZL:GetInfoUrl(23)/}">版权申明</a></li>
+	<li><a href="{ZL:GetInfoUrl(22)/}">联系我们</a></li>   
+</ul>
+<div class="clearfix"></div>
+<p>{$Copyright/}</p>
+</div>
+</div>
+</body>
+</html>
+<script type="text/javascript">
+var $slider = $('.slider ul');
+var $slider_child_l = $('.slider ul li').length;
+var $slider_width = $('.slider ul li').width();
+$slider.width($slider_child_l * $slider_width);
+var slider_count = 0;
+if ($slider_child_l < 6) {
+	$('#btn-right').css({cursor: 'auto'});
+	$('#btn-right').removeClass("dasabled");
+}
+$('#btn-right').click(function() {
+	if ($slider_child_l < 6 || slider_count >= $slider_child_l - 6) {
+		return false;
+	}
+	
+	slider_count++;
+	$slider.animate({left: '-=' + $slider_width + 'px'}, 'slow');
+	slider_pic();
+});
+
+$('#btn-left').click(function() {
+	if (slider_count <= 0) {
+		return false;
+	}
+	
+	slider_count--;
+	$slider.animate({left: '+=' + $slider_width + 'px'}, 'slow');
+	slider_pic();
+});
+
+function slider_pic() {
+	if (slider_count >= $slider_child_l - 6) {
+		$('#btn-right').css({cursor: 'auto'});
+		$('#btn-right').addClass("dasabled");
+	}
+	else if (slider_count > 0 && slider_count <= $slider_child_l - 6) {
+		$('#btn-left').css({cursor: 'pointer'});
+		$('#btn-left').removeClass("dasabled");
+		$('#btn-right').css({cursor: 'pointer'});
+		$('#btn-right').removeClass("dasabled");
+	}
+	else if (slider_count <= 0) {
+		$('#btn-left').css({cursor: 'auto'});
+		$('#btn-left').addClass("dasabled");
+	}
+}
+
+$('.slider a').hover(function() {
+	if ($(this).find('img:animated').length) return;
+	$(this).animate({marginTop: '0px'}, 300);
+	$(this).find('img').animate({width: '150px'}, 300);
+}, function() {
+	
+	$(this).animate({marginTop: '24px'}, 200);
+	$(this).find('img').animate({width: '90px'}, 200);
+});
+</script>

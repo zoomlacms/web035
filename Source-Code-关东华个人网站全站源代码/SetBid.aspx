@@ -1,0 +1,1 @@
+﻿<%@ page language="C#" autoeventwireup="true" inherits="SetBid, App_Web_4i3nugom" enableviewstatemac="false" enableEventValidation="false" viewStateEncryptionMode="Never" %>
